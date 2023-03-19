@@ -1,0 +1,14 @@
+[
+    {"id":1, "nombre": "Labial Anastasia BH", "precio":250000, "img": "../img/labial-anastasia.jpg", "cantidad":1},
+    {"id":2, "nombre": "Labial Chanel", "precio":415000, "img": "../img/labial-chanel.jpg", "cantidad":1},
+    {"id":3, "nombre": "Labial Dior", "precio":467000, "img": "../img/labial-dior.jpg", "cantidad":1},
+    {"id":4, "nombre": "Labial Givenchy", "precio":515000, "img": "../img/labial-givenchy.jpg", "cantidad":1},
+    {"id":5, "nombre": "Sombras Tarte", "precio":270000, "img": "../img/sombras tarte.jpg", "cantidad":1},
+    {"id":6, "nombre": "Sombras Naked", "precio":245000, "img": "../img/sombras-naked.jpg", "cantidad":1},
+    {"id":7, "nombre": "Sombras Nars", "precio":315000, "img": "../img/sombras-nars.jpg", "cantidad":1},
+    {"id":8, "nombre": "Sombras Norvina", "precio":325000, "img": "../img/sombras-norvina.jpg", "cantidad":1},
+    {"id":9, "nombre": "Pestaniña Dior", "precio":410000, "img": "../img/pestanina-dior.jpg", "cantidad":1},
+    {"id":10, "nombre": "Pestaniña Estee Lauder", "precio":425000, "img": "../img/pestanina-lauder.jpg", "cantidad":1},
+    {"id":11, "nombre": "Pestaniña Mac", "precio":330000, "img": "../img/pestanina-mac.jpg", "cantidad":1},
+    {"id":12, "nombre": "Pestaniña YSL", "precio":405000, "img": "../img/pestanina-ysl.jpg", "cantidad":1}
+]

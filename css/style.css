@@ -13,12 +13,12 @@
 }
 
 .botonColor {
-    background-color: rgb(206, 186, 207);
+    background-color: #cebacf;
     color: black;
     border: solid, 6px;
     margin-bottom: 8px;
 }
 
 .botonColor:hover {
-    background-color: rgb(207, 127, 211);
+    background-color: #cf7fd3;
 }
