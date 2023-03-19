@@ -1,40 +1,7 @@
-// class Producto {
-//     constructor (id, nombre, precio, img){
-//         this.id = id;
-//         this.nombre = nombre;
-//         this.precio = precio;
-//         this.img = img;
-//         this.cantidad = 1;
-//     }
-
-// }
-
-// // Labiales
-// const labial1 = new Producto("labial1", "Labial Anastasia BH", 250000, "./img/labial-anastasia.jpg"); 
-// const labial2 = new Producto("labial2", "Labial Chanel", 415000, "./img/labial-chanel.jpg");
-// const labial3 = new Producto("labial3", "Labial Dior", 467000, "./img/labial-dior.jpg");
-// const labial4 = new Producto("labial4", "Labial Givenchy", 515000, "./img/labial-givenchy.jpg");
-
-// // Sombras de ojos
-// const sombras1 = new Producto("sombras1", "Sombras Tarte", 270000, "./img/sombras tarte.jpg");
-// const sombras2 = new Producto("sombras2", "Sombras Naked", 245000, "./img/sombras-naked.jpg");
-// const sombras3 = new Producto("sombras3", "Sombras Nars", 315000, "./img/sombras-nars.jpg");
-// const sombras4 = new Producto("sombras4", "Sombras Norvina", 325000, "./img/sombras-norvina.jpg");
-
-// // Pestañinas
-// const pestanina1 = new Producto("pestanina1", "Pestaniña Dior", 410000, "./img/pestanina-dior.jpg");
-// const pestanina2 = new Producto("pestanina2", "Pestaniña Estee Lauder", 425000, "./img/pestanina-lauder.jpg");
-// const pestanina3 = new Producto("pestanina3", "Pestaniña Mac ", 330000, "./img/pestanina-mac.jpg");
-// const pestanina4 = new Producto("pestanina4", "Pestaniña YSL", 405000, "./img/pestanina-ysl.jpg");
-
-// const arrayProductos = [labial1, labial2, labial3, labial4, sombras1, sombras2, sombras3, sombras4, pestanina1, pestanina2, pestanina3, pestanina4];
-
-// console.log(arrayProductos);
-
 let productos = [];
 let carritoCompras = [];
 carritoCompras = JSON.parse(localStorage.getItem("carritoCompras")) || [];
-const urlLocal = "../productos.json";
+const urlLocal = "./productos.json";
 
 fetch(urlLocal)
 .then(response => response.json())
@@ -85,11 +52,11 @@ function cargarProductos(productos){
 
 
 const agregarAlCarrito = (id) => {
+    const producto = productos.find((producto) => producto.id === id);
     const carritoProductos = carritoCompras.find((producto) => producto.id === id);
     if (carritoProductos) {
         carritoProductos.cantidad++;
     } else {
-        const producto = arrayProductos.find((producto) => producto.id === id);
         carritoCompras.push(producto);
     }
     calcularTotal();
