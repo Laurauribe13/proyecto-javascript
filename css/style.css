@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+h1 {
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 350;
+    margin-top: 30px;
+}
+
 .imgProductos {
     width: 300px;
     height: 300px;
@@ -22,3 +39,14 @@
 .botonColor:hover {
     background-color: #cf7fd3;
 }
+
+.whatsapp a img {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 1.8%;
+    right: 1%;
+    transition: 2s; }
+    
+.whatsapp a img:hover {
+    transform: scale(1.1); }

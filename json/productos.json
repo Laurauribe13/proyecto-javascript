@@ -7,8 +7,8 @@
     {"id":6, "nombre": "Sombras Naked", "precio":245000, "img": "../img/sombras-naked.jpg", "cantidad":1},
     {"id":7, "nombre": "Sombras Nars", "precio":315000, "img": "../img/sombras-nars.jpg", "cantidad":1},
     {"id":8, "nombre": "Sombras Norvina", "precio":325000, "img": "../img/sombras-norvina.jpg", "cantidad":1},
-    {"id":9, "nombre": "Pestaniña Dior", "precio":410000, "img": "../img/pestanina-dior.jpg", "cantidad":1},
-    {"id":10, "nombre": "Pestaniña Estee Lauder", "precio":425000, "img": "../img/pestanina-lauder.jpg", "cantidad":1},
-    {"id":11, "nombre": "Pestaniña Mac", "precio":330000, "img": "../img/pestanina-mac.jpg", "cantidad":1},
-    {"id":12, "nombre": "Pestaniña YSL", "precio":405000, "img": "../img/pestanina-ysl.jpg", "cantidad":1}
+    {"id":9, "nombre": "Pestañina Dior", "precio":410000, "img": "../img/pestanina-dior.jpg", "cantidad":1},
+    {"id":10, "nombre": "Pestañina Estee Lauder", "precio":425000, "img": "../img/pestanina-lauder.jpg", "cantidad":1},
+    {"id":11, "nombre": "Pestañina Mac", "precio":330000, "img": "../img/pestanina-mac.jpg", "cantidad":1},
+    {"id":12, "nombre": "Pestañina YSL", "precio":405000, "img": "../img/pestanina-ysl.jpg", "cantidad":1}
 ]
